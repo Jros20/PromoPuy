@@ -1,0 +1,15 @@
+.circle {
+    background-color: red;
+    /* Animación de parpadeo */
+    animation: blink 1s infinite alternate;
+}
+
+/* Definición de la animación */
+@keyframes blink {
+    from {
+        opacity: 1; /* Comienza con opacidad completa */
+    }
+    to {
+        opacity: 0.2; /* Termina con opacidad reducida */
+    }
+}
